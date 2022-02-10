@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .footer a:hover{
+    color: #00adfd;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 33.3333333%);
+    width: 70%;
+    margin: 0;
+  }
+
+  .lang_box {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .language{
+    padding: 5px;
+  }
+
+  .languageSelected{
+    padding: 0.3rem 1rem;
+    background-color: #4340ea;
+    color: white;
+    border-radius: 3px;
+  }
+
+  @media only screen and (max-width: 1249px){
+    .content {
+      grid-template-columns: 1fr;
+      width: 90%;
+    }
+
+    .lang_box {
+      justify-content: center;
+      margin-bottom: 1.2rem;
+    }
+  }

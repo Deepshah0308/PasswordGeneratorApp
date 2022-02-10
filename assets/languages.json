@@ -1,0 +1,55 @@
+{
+    "Home": [
+        {
+            "locale": "pt-BR",
+            "title": "Gerador de Senha",
+            "description": "Use seu gerador de senha online para criar imediatamente uma senha segura e aleatória.",
+            "character_qtd": "Número de caracteres da senha",
+            "uppercase": "Letra maiúscula",
+            "numbers": "Números",
+            "symbols": "Símbolos",
+            "generate": "Gerar",
+            "copyTocliboard": "Copiar" ,
+            "footerCopyright": "Desenvolvido por Pedro Silva (xGalactico)"       
+        },
+
+        {
+            "locale": "es-ES",
+            "title": "Generador de Contraseñas",
+            "description": "Utilice su generador de contraseñas en línea para crear instantáneamente una contraseña segura y aleatoria.",
+            "character_qtd": "número de caracteres de la contraseña",
+            "uppercase": "Letra mayúscula",
+            "numbers": "Números",
+            "symbols": "Simbolos",
+            "generate": "Generar",
+            "copyTocliboard": "Dupdo",
+            "footerCopyright": "Energizado por Pedro Silva (xGalactico)" 
+        },
+
+        {
+            "locale": "en-US",
+            "title": "Password Generator",
+            "description": "Use your online password generator to instantly create a secure, random password.",
+            "character_qtd": "Password number of characters",
+            "uppercase": "Capital letter",
+            "numbers": "Numbers",
+            "symbols": "Symbols",
+            "generate": "Generate",
+            "copyTocliboard": "Copy",
+            "footerCopyright": "Powered by Pedro Silva (xGalactico)"          
+        },
+
+        {
+            "locale": "it-IT",
+            "title": "Generatore di password",
+            "description": "Usa il tuo generatore di password online per creare istantaneamente una password sicura e casuale.",
+            "character_qtd": "Numero di caratteri della password",
+            "uppercase": "Lettera maiuscola",
+            "numbers": "Numeri",
+            "symbols": "Simboli",
+            "generate": "Creare",
+            "copyTocliboard": "Copia",
+            "footerCopyright": "Offerto da Pedro Silva (xGalactico)" 
+        }
+    ]
+}

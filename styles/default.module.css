@@ -1,0 +1,93 @@
+.main {
+  background-image: url("../public/images/background/xqaS.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+
+  overflow: hidden;
+}
+
+.content {
+  min-height: calc(100vh - 86px);
+
+  max-width: 70%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  /* background-image: url('../images/background/xqaS.jpg'); */
+}
+
+.box {
+  width: 100%;
+}
+
+.title {
+  font-size:4.3rem;
+  font-weight: 700;
+  color: #4340ea;
+}
+
+.description {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style:italic;
+
+  margin-top: 25px;
+
+  max-width: 35rem;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+.password_text{
+  width: 50%;
+
+  border-bottom: 2px solid #4340ea;
+  background-color: transparent;
+
+  padding: 10px;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.options {
+  margin-top: 25px;
+}
+
+.number, .symbols, .uppercases {
+  margin-left: 10px;
+}
+
+.character_qtd {
+  margin-right: 3px;
+  width: 2rem;
+  text-align: center;
+  border: 1px solid #4340ea;
+  border-radius: 3px;
+}
+
+.copy_btn {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 667px) {
+  .content {
+    min-height: calc(100vh + 50px);
+
+    max-width: 90%;
+  }
+
+  .password_text{
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 490px){
+  .title {
+    font-size: 3rem;
+  }
+}

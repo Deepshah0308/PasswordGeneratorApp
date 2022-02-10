@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+button {
+  border: 2px solid #4340ea;
+  border-radius: 5px;
+
+  margin-top: 25px;
+  padding-inline: 2rem; 
+  line-height: 2rem;
+
+  color: #eaeaea;
+  background-color: #4340ea;
+
+  font-size: 1rem;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+
+  transition: 250ms ease-in-out;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+}
