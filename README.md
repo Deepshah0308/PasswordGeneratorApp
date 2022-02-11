@@ -4,6 +4,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Optional
+
+```bash
+npx create-next-app [your-folder-name] --use-npm --example "https://github.com/xGalactico/PasswordGeneratorApp"
+```
+
 First, run the development server:
 
 ```bash
