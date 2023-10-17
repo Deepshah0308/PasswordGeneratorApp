@@ -22,7 +22,7 @@ export default function Footer() {
                     })}
                 </div>
                 <a
-                    href="https://github.com/xGalactico"
+                    href="https://github.com/Deepshah0308"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
