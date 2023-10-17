@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Deep Shah's Password generator</title>
+        <title>passgen</title>
         <meta
           name="description"
           content="Password generator created with next js"
